@@ -12,7 +12,7 @@ export default function Projects() {
           </CardHeader>
           <CardContent>
             <p className="text-neutral-300">
-              Mobile app for buying games and in-game items. (Lead | Fullstack Developer & Designer)
+              Mobile app for buying games and in-game items. Easy and effiecient access.<br></br> (Lead | Fullstack Developer & Designer)
             </p>
           </CardContent>
         </Card>
@@ -24,6 +24,17 @@ export default function Projects() {
           <CardContent>
             <p className="text-neutral-300">
               A web app that turns learning and tasks into rewards and progress tracking. (Front-End Developer | Designer)
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card className="bg-black border-neon/40">
+          <CardHeader>
+            <CardTitle className="text-neon">my-portfolio</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="text-neutral-300">
+              My very own portfolio website <br></br>(Developer | Designer)
             </p>
           </CardContent>
         </Card>

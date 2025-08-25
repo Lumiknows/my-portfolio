@@ -14,10 +14,10 @@ function App() {
     <div className="min-h-screen bg-background text-foreground">
       <Navbar />
       <Hero />
-      <About/>
+      <About />
       <Experience />
       <Projects />
-      <Contact/>    
+      <Contact />    
       <Footer />
     </div>
   );

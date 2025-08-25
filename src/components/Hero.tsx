@@ -37,7 +37,7 @@ export default function Hero() {
 
       {/* Subheading */}
       <p className="text-lg text-neutral-300 max-w-xl mb-6 text-glow-sub">
-        Software Engineer | UI/UX Designer | Fullstack Software Developer
+        Software Engineer | UI/UX Designer | Mobile Developer
       </p>
 
       {/* Buttons */}
