@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Theme */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #000000; /* Black background */
+  color: #f1f5f9; /* Light gray text */
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Navy blue accent */
+:root {
+  --accent: #001f3f; /* Navy blue */
+}
