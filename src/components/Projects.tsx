@@ -38,7 +38,7 @@ const techLinks = {
   }
 };
 
-const iconClass = "w-10 h-10 p-2 rounded-full bg-gray-300 border border-neon/40 outline outline-2 outline-neon hover:bg-neon/80 transition-all duration-200 hover:scale-110 active:scale-95 shadow-lg cursor-pointer";
+const iconClass = "w-10 h-10 p-2 rounded-full bg-gray-800 border border-neon/40 outline outline-2 outline-neon hover:bg-neon/80 transition-all duration-200 hover:scale-110 active:scale-95 shadow-lg cursor-pointer";
 export default function Projects() {
   return (
     <section id="projects" className="py-4 px-6 max-w-6xl mx-auto">

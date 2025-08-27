@@ -15,8 +15,7 @@ const techLinks = {
   software: "https://en.wikipedia.org/wiki/Software"
 };
 
-const iconClass =
-  "w-10 h-10 p-2 rounded-full bg-black/70 hover:bg-neon/80 transition-all duration-200 hover:scale-110 active:scale-95 shadow-lg cursor-pointer border border-neon/40";
+const iconClass = "w-10 h-10 p-2 rounded-full bg-gray-800 border border-neon/40 outline outline-2 outline-neon hover:bg-neon/80 transition-all duration-200 hover:scale-110 active:scale-95 shadow-lg cursor-pointer";
 
 export default function Experience() {
   return (
@@ -60,12 +59,12 @@ export default function Experience() {
           </CardHeader>
           <CardContent>
             <p className="text-neutral-300">Computer Troubleshooting & Hardware</p>
-            <div className="flex gap-4 mt-4 flex-wrap">
+             <div className="flex gap-4 mt-4 flex-wrap">
               <a href={techLinks.hardware} target="_blank" rel="noopener noreferrer" title="Hardware">
-                <MdComputer className={iconClass + " text-gray-300"} />
+                <MdComputer className={iconClass + " text-white"} />
               </a>
               <a href={techLinks.software} target="_blank" rel="noopener noreferrer" title="Software">
-                <MdBuild className={iconClass + " text-gray-300"} />
+                <MdBuild className={iconClass + " text-white"} />
               </a>
             </div>
           </CardContent>
